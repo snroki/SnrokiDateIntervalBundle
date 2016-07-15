@@ -1,0 +1,23 @@
+{
+  "name": "snroki/date-interval-bundle",
+  "type": "symfony-bundle",
+  "description": "Override the php DateInterval class to allow milliseconds (ISO 8601)",
+  "keywords": ["DateInterval", "milliseconds", "ISO 8601"],
+  "homepage": "https://github.com/snroki/SnrokiDateIntervalBundle",
+  "license": "Beerware",
+  "authors": [
+    {
+      "name": "Snroki"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "symfony/framework-bundle": "~2.3|~3.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "~2.7|~3.0"
+  },
+  "autoload": {
+    "psr-4": { "Snroki\\DateIntervalBundle\\": "" }
+  }
+}
